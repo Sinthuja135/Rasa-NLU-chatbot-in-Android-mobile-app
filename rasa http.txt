@@ -1,0 +1,13 @@
+go to rasa chatbot path run below command
+
+	rasa run -m models --enable-api --endpoints endpoints.yml
+
+copy the localhost address and active server
+find ip adrress of your machine 
+		ipconfig
+
+in android http reference add  
+
+	eg: http://192.168.43.84:5005/webhooks/rest/
+
+	http://ipconfig:5005/webhooks/rest/
